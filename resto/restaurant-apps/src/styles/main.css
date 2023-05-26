@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Tilt+Warp&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  background-color: #ffebbb;
+}
+
+a{
+  text-decoration: solid;
+}
+
+.container{
+  margin-right: 45px;
+  margin-left: 55px;
+}
+.nav{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: baseline;
+  height: 50px;
+  padding-top: 20px;
+}
+.nav-brand-mobile{
+  color:aqua;
+  display: none;
+}
+
+.nav-brand {
+  font-size: 25%;
+  color: aqua;
+}
+
+.nav ul{
+  width: 50%;
+  justify-content: space-around;
+  display: flex;
+}
+.nav a{
+  font-size: 75%;
+  padding: 8px;
+  color:aqua;
+  font-weight: 400;
+}
+.nav a:hover{
+  text-decoration: line-through;
+}
+button{
+  width:50px;
+  height:50px;
+  color: aqua;
+  border: none;
+  background: none;
+}
+#menu-tombol {
+  display: none;
+  font-size: 50px;
+}
+
+.header{
+  background-size:cover ;
+  margin-top: 18px;
+  display:grid ;
+  place-content: center;
+  text-align: justify;
+  background-position: center;
+  width: 100%;
+} 
+
+.headline-title {
+  text-align: center;
+  padding: 25px;
+  color: aqua;
+  font-size: 50%;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ffebbb;
+}
